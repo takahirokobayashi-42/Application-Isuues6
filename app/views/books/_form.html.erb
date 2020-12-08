@@ -1,0 +1,10 @@
+
+
+<div>
+           <%= form_with(model:[post_book, book_comment]) do |f| %>
+            <%= f.text_area :comment, rows:10, cols:60, placeholder: "コメントをここに" %>
+            <%= f.submit "送信する" %>
+          <% end %>
+       
+    
+      </div>

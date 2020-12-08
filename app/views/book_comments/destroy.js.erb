@@ -1,0 +1,2 @@
+$("#book_comment_comment").val("");
+$('.comment_<%= @post_book.id %>').html("<%= j(render partial: 'books/comment', locals: {post_book: @post_book}) %>");
